@@ -1,0 +1,102 @@
+#TITLE "Running Hell - Cave Story"
+#AUTHOR "Daisuke Amaya (cover: Dippy)"
+#COPYRIGHT "2004 (cover: 2018)"
+#NOISENOTE
+#mode 0
+
+#@0 {EC96319000770000002469CEFFFFFFFF} ;bass
+
+#V0 {0, -5, \}
+
+#M1 @0v3o4en1cn1rn10       ;chan G kick (16)
+#M2 @0v3o5c+n1<gn1rn4      ;chan G snare (32)
+#M3 v10o7b64  v3b64        ;snare (32)  
+#M4 v10o9g64  v1g64v-1    ;hi-hat (32)   
+#M5 @0v3o4en1cn1rn4       ;chan G kick (32)            	
+
+
+'ABCDG t128 T196
+'ABCD rn1 ;delay to sync with G channel
+
+;intro
+'A o2 x0 l16 v11 zv0,1,10
+'A [7 a8rarara]
+'A v11a.v8a.v6a.v3a.v1a.r32
+
+'B o2 x0 l16 v7
+'B [7 drdrdrdr]
+'B v7d.v5d.v4d.v3d.v1d.r32
+
+'C @0 v3 o3 l16
+'C [7 drdrdrdr]
+'C v3d.v3d.v2d.v2d.v1d.r32
+
+'D v$86
+'D o6g+8.b8.>d8.f+8.a+8b8>d+8.f8.a+8b+6rn15
+'D l32 [2 M3M3M3M3]
+'D M4rM3rM4rM3M3M4rM3rM4rM3rM4rM3rM4rM3rM4rM3M3M4rM3rM4rM3M3M4rM3rM4rM3rM4rM3r  
+'D [2 M3rrM3M4rM3r]
+
+'G l16
+'G [3 M1rM1rM1rM1r] M1rM1r [2 M2M2M2M2] 
+'G l32 M5rM2rM5rM2M2M5rM2rM5rM2rM5rM2rM5rM2rM5rM2M2M5rM2rM5rM2M2M5rM2rM5rM2rM5rM2r
+'G [2 M2rrM2rrM2r] 
+
+;main 1
+
+;lead
+'A L v14 zv0,1,8 l16 o3 x1
+'A a>fd<a>fd<a>g+afdafd>c<gac<a+>c<a+>cc+dc>c<ba+ag+gf+
+'A a>fd<a>fd<a>g+afdafd>c<gac<a+>c<a+>cc+dcf8e8d+8>v7d+32e32
+;single-channel echo
+'A v14f32v6f32v14d32v6f32v14f32v6d32v14a+32v6f32v14a32v6a+32v14f32v6a32v14d32v6f32<v14a32>v6d32
+'A v14g32v6g32v14e32v6g32v14c32v6e32v14g32v6c32v14c32v6g32v14e32v6c32v14g32v6e32v14e32v6g32
+'A v14g8.f8.e8 v14f32v7f32v14d32v7f32v14f32v7d32v14d32v7f32v14f32v7d32v14d32v7f32v14f32v7d32v14d32v7f32 
+'A v14f32v6f32v14d32v6f32v14f32v6d32v14a+32v6f32v14a32v6a+32v14f32v6a32v14d32v6f32<v14a32>v6d32
+'A v14g32v6g32v14e32v6g32v14c32v6e32v14g32v6c32v14c32v6g32v14e32v6c32v14g32v6e32v14e32v6g32
+'A v14g8.f8.e8 v14f32v7f32v14d32v7f32v14f32v7d32v14d32v7f32v14f32v7d32v14d32v7f32v14f32v7d32v14d32v7f32 
+
+'B L v11 zv0,1,10 
+'B [2 [2 a8rarara] [2 g8rgrgrg] ] [2 [2 a8rarara] g8rgrgrg a8rarara]
+
+'C L [2 v3 [2 drdrdrdr] [2 crcrcrcr] ] [2 [2 drdrdrdr] crcrcrcr drdrdrdr] 
+
+'D L [8 M4rM3rM4rM3M3M4rM3rM4rM3r M4rM3rM4rM3rM4rM3rM4rM3M3]
+
+'G L [8 M5rM2rM5rM2M2M5rM2rM5rM2r M5rM2rM5rM2rM5rM2rM5rM2M2]
+
+;main 2
+
+;lead but a little different
+'A o3v14 a>fd<a>fd<a>g+afdafd>c<gac<a+>c<a+>cc+dc>c<ba+ag+gf+
+'A a>fd<a>fd<a>g+afdafd>c<gac<a+>c<a+>cc+defecfga>c
+
+'B v11 zv0,1,10 
+'B [2 [2 a8rarara] [2 g8rgrgrg] ]
+
+'C [2 v3 [2 drdrdrdr] [2 crcrcrcr] ]
+
+'D [3 M4rM3rM4rM3M3M4rM3rM4rM3r M4rM3rM4rM3rM4rM3rM4rM3M3] M4rM3rM4rM3M3M4rM3rM4rM3r M4rM3rM4rM3r [2 M3M3M3M3]
+
+'G [3 M5rM2rM5rM2M2M5rM2rM5rM2r M5rM2rM5rM2rM5rM2rM5rM2M2] M5rM2rM5rM2M2M5rM2rM5rM2r M5rM2rM5rM2r [2 M2M2M2M2]
+
+;main 3
+
+;completely different everything
+
+'A v14 x1 zv0,1,8 l16 o5
+'A d2c4<b8a8g4e8g8a4g4 f4r8efg4e8d8e4r4>a4g4
+'A c8<e8a8>c8d4c8<b8a16.b16.g16r8d8e4d4<e16.f16.g16e16.d16.c<b16.>c16.<b16>c16.<b16.g16a4>e4a2
+
+'B x0 o4 zv0,0,0 v10 l16
+'B c32v5c32v10<ea>c<ea>c<a>d32v5d32v10<gb>d<gb>d<b b32v5b32v10 egbegbg>ececd<b>d<b>
+'B c32v5c32v10<ea>c<ea>c<a>d32v5d32v10<gb>d<gb>d<b> d32v5d32v10< eg>d<eg>d<g> e32v5e32v10< a>ce<a>cec
+'B c32v5c32v10<ea>c<ea>c<a>o4 b4a8g8e4d8>b8>c4<b4<<r1r4r8v2a32>v4c32v7e32>v10a32 e32d+32d32c+32c32<b32a+32a32g+32g32f+32f32e32d+32d32c+32
+
+'C [2 frfrfrfrgrgrgrgrererererarargrgr frfrfrfrgrgrgrgrerererer arar>erdr<]
+
+'D [16 M4rM4rM3rM4rM4rM4rM3rM4r]  
+
+'G [16 M5rM5rM2rM5rrrM5rM2rM5r]
+
+;loop point is back at main 1
