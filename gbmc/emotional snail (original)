@@ -1,0 +1,51 @@
+#TITLE "emotional snail"
+#AUTHOR ""
+#COPYRIGHT "2019"
+#NOISENOTE
+#mode 0
+
+#@0 {EC96319000770000002469CEFFFFFFFF} ;bass
+
+#X0 {2, 2, 1, \}
+
+'ABCD t128 T210
+
+;intro part
+'A v$C1 x1 l8 o5
+'B v$52 x1 l8 o5 %1 r16. 
+'AB [8 g+gd+c]
+
+'A [16 g+gd+c]
+'B [15 g+gd+c]g+gd+r32
+'C [4 r1] v3 o2 @0
+'C [2 g+1^1>c1d+1<]
+
+;main part 1
+'A x2 o5 l16
+'A [16 v12g+v7cv12gv7g+v12d+v7gv12cv7d+]
+
+'B x1 o5  
+'B [4 v$1F(g+d+c)2v$A6(g+d+c)2]
+'B x2 o2 v13 l8 
+'B [4 [2 g+>d+g+<]>g+d+]
+
+'C [2 g+1^1>c1d+1<]
+
+;melody part
+'A L [16 v12g+v7cv12gv7g+v12d+v7gv12cv7d+]
+'B L v$E2 rr zw0,1,0 o4
+'B  g+a+>c<a+g+ga+>c<a+g+v8g+v14rrrrr>[3 d+c]fgfd+v8d+v14rrr< 
+'B rrg+a+>c<a+g+ga+>c<a+g+v8g+v14rrr>[2 g+v8g+v14a+]g+a+g+v8g+v14rrrrrr<
+'C L [2 g+1^1>c1d+1<]
+'D L [20 r1]
+'D  l8 v$A2
+'D  [16 o6ccv5cv10co7[2 v10bv5b16]v10b]
+
+;melody part 2
+'A o4 x2 v12 l8 
+'A [16 g+>d+g+d+<]
+'B v$E2 rr zw0,1,0 o4
+'B g+a+>c<a+g+ga+>c<a+g+v8g+v14rrrrr>[3 d+c]fgfd+v8d+v14rrr< 
+'B rrg+a+>c<a+g+ga+>c<a+g+v8g+v14rrr>[2 g+v8g+v14a+]g+a+g+v8g+v14rrrrrr<
+'C [2 g+1^1>c1d+1<]
+'D l8 v$A2
