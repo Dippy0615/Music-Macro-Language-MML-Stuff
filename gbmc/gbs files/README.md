@@ -1,1 +1,1 @@
-These are the compiled versions of the GBMC .txt files I have put in the GBMC directory. Play the .GBS files using NEZplug++, and play the GBC files using a Game Boy emulator that supports the Game Boy Color.
+These are the compiled versions of the GBMC .txt files I have put in the GBMC directory. Play the .GBS files using NEZplug++, and play the .GBC files using a Game Boy emulator that supports the Game Boy Color.
